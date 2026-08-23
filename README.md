@@ -51,3 +51,25 @@ New, domain-specific analyses.
 ## Upstream
 
 - **[jamovi](https://github.com/jamovi/jamovi)** — the jamovi project itself.
+
+<br />
+
+## Acknowledments
+
+This work has been developed with support of the Instituto de Salud Carlos III (ISCIII), “Programa FORTALECE del Ministerio de Ciencia e Innovación”, through the project number FORT23/00032 and the Consortium for Biomedical Research in Epidemiology and Public Health (CIBERESP), action Genrisk.
+
+<br />
+
+Claude Code was used to plan and implement in these projects.
+
+<br />
+
+## License
+
+These projects are licensed under the **GNU General Public License v3**.
+
+## Report issues
+
+The code has not been extensively tested and could have bugs. Please use github Issues to report any problems and enhancement requests.
+
+© Victor Moreno - [Catalan Institute of Oncology](http://iconcologia.net/)
