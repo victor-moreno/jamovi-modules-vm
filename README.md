@@ -1,10 +1,8 @@
 # jamovi-modules-vm
 
-A collection of [jamovi](https://www.jamovi.org) modules and related tooling, developed by
-[Victor Moreno](https://github.com/victor-moreno).
+A collection of [jamovi](https://www.jamovi.org) modules and related tooling, developed to customize or add functionality
 
-Each module lives in its own repository; this page just links them together with a short
-description. See each repo's own README for installation and usage details.
+Each module lives in its own repository; this is an index page. See each repo's own README for installation and usage details.
 
 ## Improvements to jmv
 
@@ -17,7 +15,7 @@ Modules that clone and extend jmv's built-in analyses.
   extends jmv's Paired Samples Contingency Tables (McNemar) to non-binary paired responses (RxR
   tables), adding paired odds ratio, difference in proportions, marginal percentages and exact
   tests.
-- **[corrInspect](https://github.com/victor-moreno/jamovi-corrInspect)** — clones jmv's
+- **[corrInspect](https://github.com/victor-moreno/jamovi-corrInspect)** — redesign of jmv's
   Correlation Matrix with a tidy one-row-per-pair table, an inspector mode for one reference
   variable against several others, annotated scatterplots, and a colour-coded heatmap.
 - **[jmvplus](https://github.com/victor-moreno/jamovi-jmvplus)** — small additions to
