@@ -2,7 +2,16 @@
 
 A collection of [jamovi](https://www.jamovi.org) modules and related tooling, developed to customize or add functionality
 
-Each module lives in its own repository; this is an index page. See each repo's own README for installation and usage details.
+Each module lives in its own repository; this is an index page, also published at
+[victor-moreno.github.io/jamovi-modules-vm](https://victor-moreno.github.io/jamovi-modules-vm/). See
+each repo's own README for installation and usage details.
+
+## Install all together
+
+- **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
+  conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
+  installing all five is one "Sideload" instead of five. SNPstats and snpImport are released
+  separately (see New additions below).
 
 ## Improvements to jmv
 
