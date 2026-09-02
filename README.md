@@ -18,13 +18,13 @@ Modules that clone and extend jmv's built-in analyses.
 - **[corrInspect](https://github.com/victor-moreno/jamovi-corrInspect)** — redesign of jmv's
   Correlation Matrix with a tidy one-row-per-pair table, an inspector mode for one reference
   variable against several others, annotated scatterplots, and a colour-coded heatmap.
-- **[jmvplus](https://github.com/victor-moreno/jamovi-jmvplus)** — small additions to
-  Descriptives (coefficient of variation), Scatter Plot (prediction interval), and Independent
-  Samples T-Test (Fisher-Snedecor F-test alongside Levene's).
 - **[regInspect](https://github.com/victor-moreno/jamovi-regInspect)** — clone of jmv's
   Linear Regression adding observed-data points (partial residuals by default) and prediction
   intervals to the Estimated Marginal Means plots, plus a descriptive Plots tab (scatter/box
   plots, colour-by-group, scatterplot matrix) independent of the model blocks.
+- **[jmvplus](https://github.com/victor-moreno/jamovi-jmvplus)** — small additions to
+  Descriptives (coefficient of variation), Scatter Plot (prediction interval), and Independent
+  Samples T-Test (Fisher-Snedecor F-test alongside Levene's).
 
 ## New additions
 
