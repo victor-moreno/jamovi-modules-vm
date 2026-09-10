@@ -33,8 +33,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
-  installing all five is one "Sideload" instead of five. SNPstats and snpImport are released
-  separately (see New additions below).
+  installing all five is one "Sideload" instead of five. SNPstats is released separately
+  (see New additions below).
 
 
 ## New additions
@@ -44,11 +44,11 @@ New, domain-specific analyses.
 - **[SNPstats](https://github.com/victor-moreno/SNPstats-jamovi)** — SNP analysis for genetic
   epidemiology: allele/genotype frequencies, Hardy-Weinberg equilibrium, SNP-response
   association, linkage disequilibrium, haplotype analysis and polygenic risk scores. Based on the
-  [SNPstats web tool](https://www.snpstats.net).
-- **[snpImport](https://github.com/victor-moreno/plink-importer)** — imports genotypes from
-  PLINK (`.bed`/`.bim`/`.fam`, `.ped`/`.map`, `.tped`/`.tfam`) and VCF files into a jamovi
-  dataset, ready for the SNPstats analyses. Developed standalone; being merged into SNPstats as a
-  third analysis.
+  [SNPstats web tool](https://www.snpstats.net). Since v1.1.0 it also **imports genotypes**
+  from PLINK (`.bed`/`.bim`/`.fam`, `.ped`/`.map`, `.tped`/`.tfam`) and VCF files straight
+  into a jamovi dataset — the former standalone
+  [snpImport](https://github.com/victor-moreno/SNPstats-import) module, merged in as a third
+  analysis after its jamovi review. Requires jamovi 28.1 or newer.
 
 ## Tooling
 
