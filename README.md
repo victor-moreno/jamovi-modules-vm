@@ -8,6 +8,21 @@ each repo's own README for installation and usage details.
 [https://victor-moreno.github.io/jamovi-modules-vm](https://victor-moreno.github.io/jamovi-modules-vm/)
 
 
+## Which file do I download?
+
+Each module's Releases page carries four `.jmo` files per version — one for each combination of
+jamovi series and CPU:
+
+| your jamovi | Apple silicon | Intel / AMD |
+| --- | --- | --- |
+| **current** (bundles R 4.6.0) | `<module>_<version>_current_R4.6.0_arm64.jmo` | `<module>_<version>_current_R4.6.0_x64.jmo` |
+| **solid** (bundles R 4.5.0) | `<module>_<version>_solid_R4.5.0_arm64.jmo` | `<module>_<version>_solid_R4.5.0_x64.jmo` |
+
+The same file works on macOS, Windows and Linux: jamovi's compatibility check covers the R version
+and the CPU, not the operating system. Check **Help -> About** in jamovi if you are unsure which R
+yours bundles. Then, in jamovi: **Modules -> jamovi library -> Sideload** and select the `.jmo`.
+
+
 ## Improvements to jmv
 
 Modules that clone and extend jmv's built-in analyses.

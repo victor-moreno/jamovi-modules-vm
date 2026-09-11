@@ -122,6 +122,20 @@
     vertical-align: middle;
     font-weight: 600;
   }
+  table.picker {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9rem;
+    margin: 0 0 0.75rem;
+  }
+  table.picker th, table.picker td {
+    border: 1px solid var(--border);
+    padding: 0.4em 0.6em;
+    text-align: left;
+  }
+  table.picker th { color: var(--text-muted); font-weight: 600; }
+  table.picker td code { font-size: 0.82em; }
+  .picker-wrap { overflow-x: auto; }
   footer {
     color: var(--text-muted);
     font-size: 0.85rem;
@@ -137,6 +151,21 @@
     <h1>jamovi-modules-vm</h1>
     <p>jamovi modules and tooling developed to customize or add functionality</p>
   </header>
+
+  <section>
+    <h2>Which file do I download?</h2>
+    <div class="card">
+      <p>Each module's Releases page carries four <code>.jmo</code> files per version &mdash; one for each combination of jamovi series and CPU:</p>
+      <div class="picker-wrap">
+      <table class="picker">
+        <tr><th>your jamovi</th><th>Apple silicon</th><th>Intel / AMD</th></tr>
+        <tr><td><strong>current</strong> (bundles R 4.6.0)</td><td><code>&lt;module&gt;_&lt;version&gt;_current_R4.6.0_arm64.jmo</code></td><td><code>&lt;module&gt;_&lt;version&gt;_current_R4.6.0_x64.jmo</code></td></tr>
+        <tr><td><strong>solid</strong> (bundles R 4.5.0)</td><td><code>&lt;module&gt;_&lt;version&gt;_solid_R4.5.0_arm64.jmo</code></td><td><code>&lt;module&gt;_&lt;version&gt;_solid_R4.5.0_x64.jmo</code></td></tr>
+      </table>
+      </div>
+      <p>The same file works on macOS, Windows and Linux: jamovi's compatibility check covers the R version and the CPU, not the operating system. Check <strong>Help &rarr; About</strong> in jamovi if you are unsure which R yours bundles, then <strong>Modules &rarr; jamovi library &rarr; Sideload</strong> and select the <code>.jmo</code>.</p>
+    </div>
+  </section>
 
   <section>
     <h2>Improvements to jmv</h2>
