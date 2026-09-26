@@ -70,8 +70,7 @@ New, domain-specific analyses.
   Peto-Peto, trend) and survival plots with a number-at-risk table. Cox regression: univariable
   and multivariable hazard ratios, covariate HRs per unit, per SD or per a given value,
   interactions with subgroup HRs, proportional-hazards tests, forest plots and adjusted survival
-  curves. Optional explanations for students; English, Spanish and Catalan. Released on its own,
-  not part of jamovi-combo.
+  curves. Optional explanations for students; English, Spanish and Catalan. 
 
 ## Tooling
 
