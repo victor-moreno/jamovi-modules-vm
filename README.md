@@ -48,8 +48,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
-  installing all five is one "Sideload" instead of five. SNPstats is released separately
-  (see New additions below).
+  installing all five is one "Sideload" instead of five. SNPstats and prognosis are released
+  separately (see New additions below).
 
 
 ## New additions
@@ -64,6 +64,14 @@ New, domain-specific analyses.
   into a jamovi dataset — the former standalone
   [snpImport](https://github.com/victor-moreno/SNPstats-import) module, merged in as a third
   analysis after its jamovi review. Requires jamovi 28.1 or newer.
+- **[prognosis](https://github.com/victor-moreno/jamovi-prognosis)** — Survival analysis for
+  prognostic studies, with compact output aimed at teaching and reporting. Kaplan-Meier: median
+  survival, survival at given times, log-rank and weighted rank tests (Gehan-Breslow, Tarone-Ware,
+  Peto-Peto, trend) and survival plots with a number-at-risk table. Cox regression: univariable
+  and multivariable hazard ratios, covariate HRs per unit, per SD or per a given value,
+  interactions with subgroup HRs, proportional-hazards tests, forest plots and adjusted survival
+  curves. Optional explanations for students; English, Spanish and Catalan. Released on its own,
+  not part of jamovi-combo.
 
 ## Tooling
 
