@@ -48,8 +48,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
-  installing all five is one "Sideload" instead of five. SNPstats and prognosis are released
-  separately (see New additions below).
+  installing all five is one "Sideload" instead of five. SNPstats, prognosis and jmsequential are
+  released separately (see New additions below).
 
 
 ## New additions
@@ -73,6 +73,17 @@ New, domain-specific analyses.
   curves. Optional explanations for students; English, Spanish and Catalan. Comes with a
   tutorial for medical students (survival theory and worked examples in jamovi, on a teaching
   dataset).
+- **[jmsequential](https://github.com/victor-moreno/jamovi-sequential)** — Sequential designs
+  and monitoring for clinical trials, sequential experiments and safety surveillance, with
+  control of the type I and type II errors. Group sequential designs: classical and
+  error-spending boundaries, triangular tests, binding or non-binding futility; means,
+  proportions and time-to-event endpoints (with accrual and dropout); interim monitoring with
+  repeated confidence intervals, conditional power and adjusted final inference. Phase II
+  multistage designs (Simon two-stage, Fleming, Bayesian) with exact operating characteristics.
+  Wald's SPRT and sequential t-tests, MaxSPRT for post-marketing safety surveillance, Bayesian
+  sequential monitoring, and anytime-valid e-values and confidence sequences. Comes with a
+  [tutorial website](https://victor-moreno.github.io/jamovi-sequential/) on sequential methods,
+  with each example worked in jamovi.
 
 ## Tooling
 
