@@ -63,7 +63,8 @@ New, domain-specific analyses.
   from PLINK (`.bed`/`.bim`/`.fam`, `.ped`/`.map`, `.tped`/`.tfam`) and VCF files straight
   into a jamovi dataset — the former standalone
   [snpImport](https://github.com/victor-moreno/SNPstats-import) module, merged in as a third
-  analysis after its jamovi review. Requires jamovi 28.3 or newer (since v1.2.0).
+  analysis after its jamovi review. Requires jamovi 28.4 or newer (since v1.2.1); on jamovi 28.3,
+  use v1.2.0.
 - **[prognosis](https://github.com/victor-moreno/jamovi-prognosis)** — Survival analysis for
   prognostic studies, with compact output aimed at teaching and reporting. Kaplan-Meier: median
   survival, survival at given times, log-rank and weighted rank tests (Gehan-Breslow, Tarone-Ware,
