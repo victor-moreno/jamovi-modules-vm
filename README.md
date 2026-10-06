@@ -48,8 +48,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
-  installing all five is one "Sideload" instead of five. SNPstats, prognosis and jmsequential are
-  released separately (see New additions below).
+  installing all five is one "Sideload" instead of five. SNPstats, prognosis, jmsequential and
+  condLogReg are released separately (see New additions below).
 
 
 ## New additions
@@ -69,7 +69,8 @@ New, domain-specific analyses.
   prognostic studies, with compact output aimed at teaching and reporting. Kaplan-Meier: median
   survival, survival at given times, log-rank and weighted rank tests (Gehan-Breslow, Tarone-Ware,
   Peto-Peto, trend) and survival plots with a number-at-risk table. Cox regression: univariable
-  and multivariable hazard ratios, covariate HRs per unit, per SD or per a given value,
+  and multivariable hazard ratios, reference levels and covariate HRs per unit, per SD or per
+  10/100/1000 units chosen for each variable,
   interactions with subgroup HRs, proportional-hazards tests, forest plots and adjusted survival
   curves. Optional explanations for students; English, Spanish and Catalan. Comes with a
   tutorial for medical students (survival theory and worked examples in jamovi, on a teaching
@@ -85,6 +86,14 @@ New, domain-specific analyses.
   sequential monitoring, and anytime-valid e-values and confidence sequences. Comes with a
   [tutorial website](https://victor-moreno.github.io/jamovi-sequential/) on sequential methods,
   with each example worked in jamovi.
+
+- **[condLogReg](https://github.com/victor-moreno/jamovi-conditional-LR)** — Conditional
+  logistic regression for matched case-control studies: jmv's Binomial Logistic Regression with
+  a matching variable, fitted by the conditional likelihood (as `survival::clogit`). Matched-set
+  and descriptive tables, odds ratios per level with the reference at 1, univariable and
+  multivariable, trend tests, covariate scaling and forest plots. English, Spanish and Catalan.
+  Comes with a [tutorial website](https://victor-moreno.github.io/jamovi-conditional-LR/) with
+  three matched studies worked in jamovi.
 
 ## Tooling
 
