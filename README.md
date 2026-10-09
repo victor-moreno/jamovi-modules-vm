@@ -48,8 +48,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
-  installing all five is one "Sideload" instead of five. SNPstats, prognosis, jmsequential and
-  condLogReg are released separately (see New additions below).
+  installing all five is one "Sideload" instead of five. SNPstats, prognosis, jmsequential,
+  condLogReg and studysim are released separately (see New additions below).
 
 
 ## New additions
@@ -94,6 +94,15 @@ New, domain-specific analyses.
   multivariable, trend tests, covariate scaling and forest plots. English, Spanish and Catalan.
   Comes with a [tutorial website](https://victor-moreno.github.io/jamovi-conditional-LR/) with
   three matched studies worked in jamovi.
+- **[studysim](https://github.com/victor-moreno/jamovi-studysim)** — Simulated medical studies
+  for teaching. Pick a clinical scenario from a library, an outcome and a study design
+  (case-control, matched case-control, cohort, cross-sectional, randomised trial, 2×2 crossover,
+  prognosis); the dataset opens in a new window, with confounders, mediators, effect modifiers and
+  null variables built in, and an answer key gives the true effects and what crude and adjusted
+  analyses should find. Measured variables, grouping into quantiles or cut points, missing data,
+  student keys, causal diagram. Scenarios are editable (YAML, Excel, JSON) and can be derived
+  from a real dataset. English, Spanish and Catalan. Comes with a
+  [tutorial website](https://victor-moreno.github.io/jamovi-studysim/).
 
 ## Tooling
 
