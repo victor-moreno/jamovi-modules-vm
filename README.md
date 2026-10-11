@@ -56,8 +56,8 @@ Modules that clone and extend jmv's built-in analyses.
 
 New, domain-specific analyses.
 
-- **[SNPstats](https://github.com/victor-moreno/SNPstats-jamovi)** — SNP analysis for genetic
-  epidemiology: allele/genotype frequencies, Hardy-Weinberg equilibrium, SNP-response
+- **[SNPstats](https://github.com/victor-moreno/SNPstats-jamovi)** — **SNP analysis for genetic
+  epidemiology**: allele/genotype frequencies, Hardy-Weinberg equilibrium, SNP-response
   association, linkage disequilibrium, haplotype analysis and polygenic risk scores. Based on the
   [SNPstats web tool](https://www.snpstats.net). Since v1.1.0 it also **imports genotypes**
   from PLINK (`.bed`/`.bim`/`.fam`, `.ped`/`.map`, `.tped`/`.tfam`) and VCF files straight
@@ -65,8 +65,8 @@ New, domain-specific analyses.
   [snpImport](https://github.com/victor-moreno/SNPstats-import) module, merged in as a third
   analysis after its jamovi review. Requires jamovi 28.4 or newer (since v1.2.1); on jamovi 28.3,
   use v1.2.0.
-- **[prognosis](https://github.com/victor-moreno/jamovi-prognosis)** — Survival analysis for
-  prognostic studies, with compact output aimed at teaching and reporting. Kaplan-Meier: median
+- **[prognosis](https://github.com/victor-moreno/jamovi-prognosis)** — **Survival analysis for
+  prognostic studies**, with compact output aimed at teaching and reporting. Kaplan-Meier: median
   survival, survival at given times, log-rank and weighted rank tests (Gehan-Breslow, Tarone-Ware,
   Peto-Peto, trend) and survival plots with a number-at-risk table. Cox regression: univariable
   and multivariable hazard ratios, reference levels and covariate HRs per unit, per SD or per
@@ -75,8 +75,8 @@ New, domain-specific analyses.
   curves. Optional explanations for students; English, Spanish and Catalan. Comes with a
   tutorial for medical students (survival theory and worked examples in jamovi, on a teaching
   dataset).
-- **[jmsequential](https://github.com/victor-moreno/jamovi-sequential)** — Sequential designs
-  and monitoring for clinical trials, sequential experiments and safety surveillance, with
+- **[jmsequential](https://github.com/victor-moreno/jamovi-sequential)** — **Sequential designs
+  and monitoring for clinical trials**, sequential experiments and safety surveillance, with
   control of the type I and type II errors. Group sequential designs: classical and
   error-spending boundaries, triangular tests, binding or non-binding futility; means,
   proportions and time-to-event endpoints (with accrual and dropout); interim monitoring with
@@ -87,15 +87,15 @@ New, domain-specific analyses.
   [tutorial website](https://victor-moreno.github.io/jamovi-sequential/) on sequential methods,
   with each example worked in jamovi.
 
-- **[condLogReg](https://github.com/victor-moreno/jamovi-conditional-LR)** — Conditional
-  logistic regression for matched case-control studies: jmv's Binomial Logistic Regression with
+- **[condLogReg](https://github.com/victor-moreno/jamovi-conditional-LR)** — **Conditional
+  logistic regression for matched case-control studies**: jmv's Binomial Logistic Regression with
   a matching variable, fitted by the conditional likelihood (as `survival::clogit`). Matched-set
   and descriptive tables, odds ratios per level with the reference at 1, univariable and
   multivariable, trend tests, covariate scaling and forest plots. English, Spanish and Catalan.
   Comes with a [tutorial website](https://victor-moreno.github.io/jamovi-conditional-LR/) with
   three matched studies worked in jamovi.
-- **[studysim](https://github.com/victor-moreno/jamovi-studysim)** — Simulated medical studies
-  for teaching. Pick a clinical scenario from a library, an outcome and a study design
+- **[studysim](https://github.com/victor-moreno/jamovi-studysim)** — **Simulated medical studies
+  for teaching**. Pick a clinical scenario from a library, an outcome and a study design
   (cross-sectional, cohort, case-control, matched, nested case-control, case-cohort, ecological,
   prognosis with competing risks; randomised, cluster, 2×2 factorial, crossover and longitudinal
   trials with dropout or interim looks; diagnostic accuracy with markers; before-after studies with regression to the mean; method comparison for Bland-Altman); the dataset opens in a
