@@ -98,12 +98,12 @@ New, domain-specific analyses.
   for teaching. Pick a clinical scenario from a library, an outcome and a study design
   (cross-sectional, cohort, case-control, matched, nested case-control, case-cohort, ecological,
   prognosis with competing risks; randomised, cluster, 2×2 factorial, crossover and longitudinal
-  trials with dropout or interim looks; diagnostic accuracy with markers); the dataset opens in a
+  trials with dropout or interim looks; diagnostic accuracy with markers; before-after studies with regression to the mean; method comparison for Bland-Altman); the dataset opens in a
   new window, with confounders, mediators, effect modifiers and null variables built in, and an
   answer key gives the true effects and what crude and adjusted analyses should find. *Compare
   designs* draws several designs from the same population and plots their estimates against the
   truth. Measured variables, grouping into quantiles or cut points, missing data, student keys,
-  causal diagram. 61 scenarios (including dentistry and podiatry), most replicating real studies (from open data, the author's teaching datasets or published tables, some papers chosen for critical reading), several outcomes per study, realism layer (missing data, measurement error, detection limits, data-entry errors). Scenarios are editable (YAML, Excel, JSON) and can be derived
+  causal diagram. 62 scenarios (including dentistry and podiatry), most replicating real studies (from open data, the author's teaching datasets or published tables, some papers chosen for critical reading), several outcomes per study, realism layer (missing data, measurement error, detection limits, data-entry errors). Scenarios are editable (YAML, Excel, JSON) and can be derived
   from a real dataset. English, Spanish and Catalan. Comes with a
   [tutorial website](https://victor-moreno.github.io/jamovi-studysim/).
 
