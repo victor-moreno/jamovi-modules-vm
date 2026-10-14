@@ -49,7 +49,7 @@ Modules that clone and extend jmv's built-in analyses.
 - **[jamovi-combo](https://github.com/victor-moreno/jamovi-combo)** — bundles conttables2xK,
   conttablespaired2xK, corrInspect, regInspect and jmvplus into a single sideloadable `.jmo`, so
   installing all five is one "Sideload" instead of five. SNPstats, prognosis, jmsequential,
-  condLogReg and studysim are released separately (see New additions below).
+  condLogReg, studysim and clinpred are released separately (see New additions below).
 
 
 ## New additions
@@ -103,6 +103,19 @@ New, domain-specific analyses.
   designs* draws several designs from the same population and plots their estimates against the truth, also over hundreds of replicate studies (bias, power, coverage). Measured variables, grouping into quantiles or cut points, missing data, student keys and class exports, a teacher code that locks the key, causal diagram. 65 scenarios (including dentistry and podiatry), most replicating real studies (from open data, the author's teaching datasets or published tables, some papers chosen for critical reading), several outcomes per study, realism layer (missing data, measurement error, detection limits, data-entry errors). Scenarios are editable (YAML, Excel, JSON) and can be derived
   from a real dataset. English, Spanish and Catalan. Comes with a
   [tutorial website](https://victor-moreno.github.io/jamovi-studysim/).
+- **[clinpred](https://github.com/victor-moreno/jamovi-predictions)** — **Clinical prediction
+  models**: develop and validate logistic, linear and Cox (risk by a horizon) prediction models,
+  following Steyerberg, TRIPOD+AI and Riley et al., and validate published models read from a file.
+  Splines, factors and interactions; baseline covariates, backward/forward selection or elastic
+  net repeated in every resample, and incremental value over the baseline model; missing data by
+  complete cases, missing indicator or multiple imputation. Discrimination, calibration, overall
+  measures and decision curves with confidence intervals; bootstrap optimism correction or
+  cross-validation, split-sample or external validation, model updating, prediction stability
+  and sample-size adequacy. Effects with forest plots, model equation, Shapley R² decomposition,
+  permutation importance and SHAP; predictions saved to the spreadsheet and the model exported as
+  JSON. Requires jamovi 28.4 or newer. English, Spanish and Catalan. Comes with a
+  [tutorial website](https://victor-moreno.github.io/jamovi-predictions/) on prediction models,
+  with every analysis worked in jamovi.
 
 ## Tooling
 
